@@ -10,7 +10,10 @@ body {
   justify-content: center;
 }
 
-main { position: relative; width:311px; height:627px;
+main { 
+  position: relative; 
+  width:311px; 
+  height:627px;
   background:url('pacote-d013/imagens/frame-iphone.png') no-repeat center; 
 }
 

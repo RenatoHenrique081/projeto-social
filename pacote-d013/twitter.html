@@ -3,37 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    /* Zera margens padrão que causam barra horizontal */
-    html, body { margin:0; padding:0; }
-
-    /* Permite só rolagem VERTICAL dentro do iframe */
-    html, body {
-      overflow-y: auto;      /* liga barra vertical quando precisar */
-      overflow-x: hidden;    /* trava a horizontal */
-    }
-
-    /* Garante que nada estoure pro lado */
-    *, *::before, *::after { box-sizing: border-box; }
-    img, iframe, video, canvas { max-width:100%; display:block; }
-
-    /* Mostrando uma imagem “de tela”: ocupa a largura,
-       altura cresce conforme proporção (gera rolagem vertical se passar) */
-    .viewport {
-      width:100%;
-      min-height:100vh;      /* altura visível do “celular” */
-      background:#000;
-      padding:0;             /* evite padding aqui pra não criar overflow */
-    }
-    .viewport > img {
-      width:100%;
-      height:auto;           /* NADA de height:100%; isso mata a rolagem */
-    }
-  </style>
+  <link rel="stylesheet" href="social.css">
 </head>
 <body>
-  <div class="viewport">
     <img src="imagens/tela-twitter.jpg" alt="Home">
-  </div>
+    <a href="https://x.com/guanabara" target="_blank">ACESSE</a>
 </body>
 </html>
